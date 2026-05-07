@@ -1,6 +1,13 @@
 ---
 name: api-json-builder
-description: Build app.json and function.json integration files for any API or service. Use this skill whenever the user wants to create, generate, or produce app.json and function.json files for an API integration — even if they just say "make me the JSON files for Stripe" or "I need integration files for GitHub". Handles all auth types: No Auth, API Key, and OAuth2. Always use this skill when the task involves researching an API and outputting structured app.json + function.json pairs. Also triggers when editing or fixing existing app.json / function.json files.
+description: >
+  Build app.json and function.json integration files for any API or service. Use this skill
+  whenever the user wants to create, generate, or produce app.json and function.json files
+  for an API integration — even if they just say "make me the JSON files for Stripe" or
+  "I need integration files for GitHub". Handles all auth types: No Auth, API Key, and OAuth2.
+  Always use this skill when the task involves researching an API and outputting structured
+  app.json + function.json pairs. Also triggers when editing or fixing existing app.json /
+  function.json files.
 ---
 
 # API JSON Builder
